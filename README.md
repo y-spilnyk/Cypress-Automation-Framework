@@ -7,17 +7,17 @@
 ```
 
 **Assertions**
-
+```
 https://www.chaijs.com/api/bdd/#method_oneof
 
 https://docs.cypress.io/guides/references/assertions#BDD-Assertions
 
 https://docs.cypress.io/guides/references/assertions#Chai-jQuery
-
+```
 **Selectors** 
-
+```
 https://api.jquery.com/category/selectors/
-
+```
 
 # Global problems and solutions
 - [Long wait for cypress to download the file](#Long-wait-for-cypress-to-download-the-file)
