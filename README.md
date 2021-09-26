@@ -1,16 +1,17 @@
-# Links for helping
+**Links for helping**
 
 1. https://docs.cypress.io/api/table-of-contents
 2. https://example.cypress.io/
 3. https://filiphric.com/blog
 4. https://glebbahmutov.com/cypress-examples/8.4.0/
 
-# Assertions
+**Assertions**
 https://www.chaijs.com/api/bdd/#method_oneof
+
 https://docs.cypress.io/guides/references/assertions#BDD-Assertions
 https://docs.cypress.io/guides/references/assertions#Chai-jQuery
 
-# Selectors 
+**Selectors** 
 https://api.jquery.com/category/selectors/
 
 
