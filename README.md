@@ -10,6 +10,9 @@
 
 
 # Global problems and solutions
+- [Long wait for cypress to download the file](#Long wait for cypress to download the file)
+
+## Long wait for cypress to download the file
 
 ```
     cy.window().document().then(function (doc) {
