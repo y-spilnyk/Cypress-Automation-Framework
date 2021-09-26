@@ -13,4 +13,5 @@
         setTimeout(function () { doc.location.reload() }, 5000)
       })
       cy.contains('Download file template').click()
-    })```
+    })
+    ```
