@@ -5,8 +5,13 @@
 3. https://filiphric.com/blog
 4. https://glebbahmutov.com/cypress-examples/8.4.0/
 
-5. https://api.jquery.com/category/selectors/
-6. https://www.chaijs.com/api/bdd/#method_oneof
+> Assertions
+https://www.chaijs.com/api/bdd/#method_oneof
+https://docs.cypress.io/guides/references/assertions#BDD-Assertions
+https://docs.cypress.io/guides/references/assertions#Chai-jQuery
+
+> Selectors
+https://api.jquery.com/category/selectors/
 
 
 # Global problems and solutions
@@ -23,4 +28,4 @@
     })
 ```
 
-> Where `cy.contains('Download file template').click()` you need to change on your selector
+> Where `cy.contains('Download file template').click()` you need to change instead your selector
