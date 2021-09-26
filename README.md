@@ -6,11 +6,13 @@
 4. https://glebbahmutov.com/cypress-examples/8.4.0/
 
 > Assertions
+> 
 https://www.chaijs.com/api/bdd/#method_oneof
 https://docs.cypress.io/guides/references/assertions#BDD-Assertions
 https://docs.cypress.io/guides/references/assertions#Chai-jQuery
 
 > Selectors
+> 
 https://api.jquery.com/category/selectors/
 
 
