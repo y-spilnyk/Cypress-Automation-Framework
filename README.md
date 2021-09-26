@@ -20,4 +20,4 @@
     })
 ```
 
-> Where `**cy.contains('Download file template').click()**` you need to change on your selector
+> Where `cy.contains('Download file template').click()` you need to change on your selector
