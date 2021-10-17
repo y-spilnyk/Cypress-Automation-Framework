@@ -19,6 +19,7 @@ https://api.jquery.com/category/selectors/
 
 # Global problems and solutions
 - [Long wait for cypress to download the file](#Long-wait-for-cypress-to-download-the-file)
+- [How to stop all tests if one of them is unsuccessful](#How-to-stop-all-tests-if-one-of-them-is-unsuccessful)
 
 ## Long wait for cypress to download the file
 
@@ -32,3 +33,14 @@ https://api.jquery.com/category/selectors/
 ```
 
 > Where `cy.contains('Download file template').click()` you need to change instead your selector
+
+## How to stop all tests if one of them is unsuccessful
+
+```
+afterEach(function() {
+  if (this.currentTest.state === 'failed') {
+    Cypress.runner.stop()
+  }
+});
+
+```
