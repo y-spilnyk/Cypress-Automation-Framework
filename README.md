@@ -20,6 +20,7 @@ https://api.jquery.com/category/selectors/
 # Global problems and solutions
 - [Long wait for cypress to download the file](#Long-wait-for-cypress-to-download-the-file)
 - [How to stop all tests if one of them is unsuccessful](#How-to-stop-all-tests-if-one-of-them-is-unsuccessful)
+- [How to check the file in folder downlands](#How-to-check-the-file-in-folder-downlands)
 
 ## Long wait for cypress to download the file
 
@@ -42,4 +43,13 @@ afterEach(function() {
     Cypress.runner.stop()
   }
 })
+```
+
+
+## How to check the file in folder downlands
+
+```
+    const path = require('path')
+    const downloadsFolder = Cypress.config("downloadsFolder")
+    cy.readFile(path.join(downloadsFolder, "Students teacher.xlsx")).should("exist")
 ```
