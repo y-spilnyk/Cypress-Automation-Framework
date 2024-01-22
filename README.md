@@ -51,5 +51,5 @@ afterEach(function() {
 ```
     const path = require('path')
     const downloadsFolder = Cypress.config("downloadsFolder")
-    cy.readFile(path.join(downloadsFolder, "Students teacher.xlsx")).should("exist")
+    cy.readFile(path.join(downloadsFolder, "Students teacher.xlsx"))
 ```
